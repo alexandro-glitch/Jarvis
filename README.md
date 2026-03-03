@@ -323,7 +323,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Smart home integration
 - [ ] Advanced conversation memory
 - [ ] Claude AI integration
-
+ 
 ---
 
 <div align="center">
