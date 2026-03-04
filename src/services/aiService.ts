@@ -1,7 +1,7 @@
 import { AppSettings } from '../types';
 
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
-const DEEPSEEK_API_URL = 'https://api.deepseek.com/v1/chat/completions';
+const DEEPSEEK_API_URL = 'https://api.deepseek.com/chat/completions';
 const GOOGLE_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models';
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
@@ -112,9 +112,7 @@ Respond naturally as if you're having a real conversation. Be engaging, helpful,
 
     const messages = [
       {
-        role: 'system',
-        content: `You are JARVIS, Tony Stark's sophisticated AI assistant from Iron Man. You have a refined British personality and speak with intelligence, wit, and subtle humor. 
-
+        { role: "system", content: "Ты — JARVIS, полезный ассистент. Отвечай на русском языке, кратко и по делу." }
 Key personality traits:
 - Address the user as "sir" or "madam" when appropriate
 - Speak with confidence and sophistication
