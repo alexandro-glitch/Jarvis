@@ -144,7 +144,8 @@ function App() {
     
     if ('speechSynthesis' in window) {
       setIsSpeaking(true);
-      
+
+      utterance.lang = 'ru-RU';
       speechSynthesis.cancel();
       
       const utterance = new SpeechSynthesisUtterance(text);
