@@ -96,7 +96,7 @@ function App() {
       
       recognitionInstance.continuous = false;
       recognitionInstance.interimResults = false;
-      recognitionInstance.lang = 'en-US';
+      recognitionInstance.lang = 'ru-RU';
 
       recognitionInstance.onstart = () => {
         setIsListening(true);
